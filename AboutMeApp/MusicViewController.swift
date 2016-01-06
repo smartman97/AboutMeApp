@@ -21,4 +21,9 @@ class MusicViewController : ViewController
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func HomeButton(sender: UIButton)
+    {
+        performSegueWithIdentifier("fromMusic", sender: sender)
+
+    }
 }

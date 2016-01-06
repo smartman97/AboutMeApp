@@ -21,4 +21,8 @@ class TechnologyViewController : ViewController
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func HomeButton(sender: UIButton)
+    {
+        performSegueWithIdentifier("fromTechnology", sender: sender)
+    }
 }
